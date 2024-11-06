@@ -1,2 +1,2 @@
 # Web-development-frontend-
- web page to calculate LDU factorisation of nxm matrix.
+ web page to calculate LDU factorisation of nxn matrix.
