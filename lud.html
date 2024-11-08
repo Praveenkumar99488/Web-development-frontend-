@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LDU Factorization Calculator</title>
+  <link rel="stylesheet" href="lud.css">
+  <script src="java.js"></script>
+
+ </head>
+<body>
+
+  <h2>	..&#10084; LDU Factorization Calculator	&#10084;..</h2>
+
+  <div>
+    <label for="matrix-size">Enter Matrix Size </label>
+    <input type="number" id="matrix-size" min="2" max="10" value="3">
+    <button onclick="generateMatrixInput()">Generate Matrix</button>
+  </div>
+
+  <div id="matrix-container" class="matrix-container"></div>
+
+  <button onclick="calculateLDU()">Calculate LDU</button>
+  
+  <p id="error-message" class="error"></p>
+
+  <div id="output-section" class="output-container">
+    <h3>L Matrix</h3>
+    <div id="LMatrix" class="output-grid"></div>
+
+    <h3>D Matrix</h3>
+    <div id="DMatrix" class="output-grid"></div>
+
+    <h3>U Matrix</h3>
+    <div id="UMatrix" class="output-grid"></div>
+
+    <h3>Elimination Matrix E21</h3>
+    <div id="E21Matrix" class="output-grid"></div>
+
+    <h3>Elimination Matrix E31</h3>
+    <div id="E31Matrix" class="output-grid"></div>
+
+    <h3>Elimination Matrix E32</h3>
+    <div id="E32Matrix" class="output-grid"></div>
+  </div>
+ <footer>
+    <p> &hearts; . &copy;.All rights reserved . &hearts;</p>
+</footer>
+</body>
+</html>
