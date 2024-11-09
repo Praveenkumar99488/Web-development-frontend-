@@ -27,7 +27,6 @@
     
     }
     
-    /* Input Section */
     div {
     margin: 10px 0;
     }
@@ -61,14 +60,12 @@
     background-color: #45a049;
     }
     
-    /* Error Message */
     .error {
     color: #ff4d4d;
     font-size: 0.9rem;
     margin-top: 10px;
     }
     
-    /* Output Section */
     .output-container {
     margin-top: 20px;
     display: grid;
@@ -104,14 +101,13 @@
     font-weight: bold;
     }
     
-    /* Matrix Container */
     .matrix-container {
     display: grid;
     gap: 20px;
     margin: 20px 0;
     }
     
-    /* Responsive Styling */
+
     @media (max-width: 600px) {
     .output-container {
         grid-template-columns: 1fr;
@@ -131,9 +127,9 @@
     
     }
     footer img {
-        width: 70px; /* Adjust the size as needed */
+        width: 90px; 
         height: auto;
-        margin-right: 8px; /* Spacing between image and text */
+        margin-right: 8px; 
         border-radius: 50%;
     
     }
